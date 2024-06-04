@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: gray;
+  list-style: none;
+}
+
+.navDiv,
+.navMenu,
+.aboutHeroDiv,
+.aboutInspirationalDiv,
+.aboutInspirationMainQuote,
+.aboutEmpoweringDiv,
+.supportingDiv,
+.aboutCallToActionDiv,
+.aboutContactDiv,
+.aboutFooterLinksDiv,
+footer,
+.communityGalleryCard,
+.communityBlogDescription,
+.communityCallToActionDiv,
+.downloadInformationDiv,
+.downloadEnvironmentDiv,
+.downloadyEyeCatchDiv,
+.downloadyEyeCatchSection {
+  display: flex;
+  align-items: center;
+}
+
+.aboutHeroDiv,
+.aboutInspirationalDiv,
+.aboutEmpoweringDiv,
+.supportingDiv,
+.aboutCallToActionDiv,
+.aboutContactDiv,
+.aboutFooterLinksDiv,
+.communityCallToActionDiv,
+.downloadInformationDiv,
+.downloadEnvironmentDiv,
+.downloadyEyeCatchDiv,
+.landingCallToActionDi,
+.landingDiscoverDiv,
+.landingGrowDiv,
+.landingCatchMain,
+.landingCallToActionDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar .dropdownParent:hover .dropdown,
+.navBar ul li ul.dropdown li,
+.navBar ul li ul.dropdown li a,
+.aboutFooterEntry a,
+.aboutFooterEntry h4 {
+  display: block;
+}
+
+.aboutHero,
+.aboutInspirational,
+.aboutEmpowering,
+.supporting,
+.aboutCallToAction,
+.communityHeroDiv,
+.downloadInformationDiv,
+.downloadEnvironmentDiv {
+  margin-bottom: 200px;
+}
+
+.navBar,
+.aboutContactDiv,
+.logos,
+.communityBlogDiv,
+.communityCallToActionDiv,
+.communityGalleryDiv,
+.aboutContactDiv,
+.downloadCallToActionDiv,
+.downloadyEyeCatchDiv,
+.landingCallToAction,
+.landingDiscoverDiv,
+.landingGrowDiv,
+.landingCatchDiv,
+.landingGetStartedDiv,
+.landingHeroDiv,
+.landingCallToActionDiv {
+  margin-bottom: 100px;
+}
+
+.aboutFooterEntry a,
+.aboutFooterEntry h4,
+.aboutFooterLinks,
+h1,
+h2,
+h3,
+p.body,
+ul.communityGalleryDescription {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+p.body,
+.communityDescription {
+  color: black;
+}
+
+.navMenu,
+.aboutInspirationMainQuote,
+.downloadyEyeCatchSection {
+  gap: 30px;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  backdrop-filter: blur(6px);
+}
+
+#heroContainer {
+  margin-top: 200px;
+}
+
+.navDiv {
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.navMenu ul li {
+  position: relative;
+  display: inline;
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  min-width: 100px;
+  top: 100%;
+  left: -25%;
+}
+
+.navBar ul li ul.dropdown li a {
+  padding: 12px 16px;
+}
+
+.navBar ul li ul.dropdown li a:hover,
+.landingHeroDiv {
+  background-color: lightgray;
+}
+
+button {
+  height: 35px;
+  width: 90px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonWhite button {
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.buttonBlack button {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+
+footer,
+.communityBlogDescription {
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p.body {
+  font-size: 24px;
+  color: gray;
+}
+
+.aboutBodyImage,
+.communityBodyImage,
+.downloadBodyImage {
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  margin-bottom: 10px;
+}
+
+.aboutBodyImage,
+.downloadBodyImage {
+  height: 500px;
+}
+
+.communityBodyImage {
+  height: 400px;
+}
+
+input {
+  width: 200px;
+  height: 35px;
+  padding-left: 10px;
+}
+
+.aboutFooterLinks {
+  padding: 100px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.copyright p.body,
+.communityDescription {
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.communityGalleryDiv,
+.communityGalleryButton,
+.communityAcknowledgmentHeader,
+.downloadCallToActionDiv,
+.landingHeroDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.communityGalleryHeader,
+.downloadCallToActionDiv {
+  text-align: center;
+}
+
+.communityGalleryDescription li {
+  display: inline;
+  margin-right: 15px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 30px 0;
+  background-color: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+
+  animation: 15s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 60px;
+  margin: 0 40px;
+}
+
+.blogCardImage img {
+  height: 300px;
+  width: 100%;
+}
+
+.communityBlogBody {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.communityBlogCard {
+  border: 1px solid black;
+  height: 600px;
+  width: 506px;
+  padding-top: 20px;
+}
+
+.blogCardDescription {
+  padding: 20px;
+}
+
+.communityDescription {
+  font-weight: bold;
+}
+
+ul.communityBlogDescription {
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+
+.communityGalleryButton,
+.communityGalleryCard {
+  margin-top: 50px;
+}
+
+.communityGalleryCard {
+  gap: 100px;
+}
+
+.communityGalleryItem {
+  width: 750px;
+  border: 1px solid black;
+}
+
+.communityGalleryItemBody {
+  padding: 20px;
+}
+
+.landingCatchMain img {
+  height: 50px;
+}
+
+.landingGetStartedDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  padding-left: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(./img/placeholder-image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bodyWhite {
+  color: white;
+}
